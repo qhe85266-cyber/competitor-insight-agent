@@ -1,0 +1,2 @@
+# Host-verified pin (2026-10-16 Asia/Shanghai): .venv installed pytest==8.4.2 successfully.
+pytest==8.4.2

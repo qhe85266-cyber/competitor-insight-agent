@@ -1,0 +1,8 @@
+# Installed direct dependency pins verified during G1.
+# This is not a validated transitive lock. See reports/G1_RESULT.md.
+gpt-researcher==0.16.1
+langchain-deepseek==1.1.1
+python-dotenv==1.2.4
+
+ddgs==9.16.0
+streamlit==1.50.0

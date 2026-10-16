@@ -1,0 +1,11 @@
+{
+  "download_button_count": 1,
+  "label": "下载 Markdown",
+  "file_name": "competitor-comparison.md",
+  "mime": "text/markdown",
+  "data_source": "app.py uses markdown(result).encode(utf-8) for download_button; AppTest confirmed control present and page markdown widget equals same markdown(result); bytes saved from that shared function (AppTest proto did not expose full binary payload)",
+  "saved_bytes": 3608,
+  "matches_markdown_fn": true,
+  "page_markdown_widget_present": true,
+  "streamlit_health": "http://127.0.0.1:8501/_stcore/health -> 200"
+}
