@@ -3,6 +3,7 @@
 import re
 import subprocess
 import unicodedata
+from pathlib import Path
 
 from comparison import run_comparison, markdown
 
@@ -28,8 +29,9 @@ def invoke_researcher(topic, names):
 
 
 def main():
-    st.set_page_config(page_title="竞品调研", page_icon="🔎")
-    st.title("竞品调研")
+    st.set_page_config(page_title="竞澜研究 · Jinglan Insight", page_icon="🔎")
+    st.title("竞澜研究")
+    st.image(str(Path(__file__).parent / "assets/brand-cover.jpg"), caption="竞澜研究 · 原创品牌插图")
     st.caption("输入 2～3 个竞品，生成三维对比、建议及 Markdown。真实研究需手动触发，总计最多约 300 秒。")
     topic = st.text_input("研究主题", placeholder="例如：AI Agent 开发平台")
     raw_names = st.text_area("竞品名称（2～3 个）", placeholder="Dify、FastGPT、Langflow",
